@@ -334,4 +334,3 @@ add_action( 'add_meta_boxes', 'archy_slider_add_custom_box' );
 add_action( 'save_post', 'archy_slider_save_postdata' );
 add_action( 'archy_slider', 'archy_slider' );
 add_action( 'archy_content_nav', 'archy_content_nav' );
-?>

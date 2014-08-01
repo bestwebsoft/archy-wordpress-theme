@@ -3,15 +3,15 @@ Contributors: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
 Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
 Tags: two-column, left-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready, pagination, image-slider, white, blue, gray.
-Requires at least: 3.4
-Tested up to: 3.8.1
-Stable tag: 1.4
+Requires at least: 3.7
+Tested up to: 3.9.1
+Stable tag: 1.6
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 
 == Description ==
 
-Archy is a neat and easy to use theme for your website.
+Archy is a powerful and sleek WordPress Theme that provides all the tools you need to launch a successful online store. The design is responsive and beautiful, it balances between style and function. A strict grid and clean design elements give the theme an organized layout which is a pleasure to scroll and to read. It is a beautiful magazine theme that does a great job displaying a bunch of content avoiding the feeling of clutter at the same time. Archy is absolutelly compatible with all plugins developed by BestWebSoft, so you will not have to worry about compatibility issues. We recommend you to upgrade your website's functionality with Contact Form plugin (http://wordpress.org/plugins/contact-form-plugin/) and Facebook Like Button (http://wordpress.org/plugins/facebook-button-plugin/). With these, you will be able to organize your website's work, which will be a huge bonus to the Theme's appealing design. Take a look at this theme's demo at http://bestwebsoft.com/wordpress_demo_theme/archy/
 
 = Features =
 
@@ -101,6 +101,14 @@ You can display Custom Header image by adding it via 'Appearances' > 'Header' me
 
 == Changelog ==
 
+= v1.6 - 29.07.2014 =
+* Update: We checked theme for WordPress 3.9.1. 
+* Bugfix: We fixed bugs in script.js.
+
+= v1.5 - 05.04.2014 =
+* Update: We updated all functionality for wordpress 3.9.
+* Bugfix: We fixed a bug for the search form in the sidebar and in the search template.
+
 = v1.4 - 11.02.2014 =
 * Bugfix: Created archy.pot file without any translation.
 
@@ -119,6 +127,12 @@ You can display Custom Header image by adding it via 'Appearances' > 'Header' me
 Ability to use the Archy theme in your site.
 
 == Upgrade Notice ==
+
+= v1.6 =
+We checked theme for WordPress 3.9.1. We fixed bugs in script.js.
+
+= v1.5 =
+We updated all functionality for wordpress 3.9. We fixed a bug for the search form in the sidebar and in the search template.
 
 = v1.4 =
 Created archy.pot file without any translation.

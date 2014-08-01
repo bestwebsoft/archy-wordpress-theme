@@ -16,10 +16,10 @@
 	else : /* is_active_sidebar */ ?>
 		<aside class="widget widget_search">
 			<h4 class="widget-title"><?php _e( 'Search', 'archy' ) ?></h4>
-			<form role="search" method="get" id="searchform" class="searchform" action="http://task2.kra.loc/">
+			<form role="search" method="get" id="searchform" class="searchform" action="<?php echo home_url( '/' ); ?>">
 				<div>
 					<label class="screen-reader-text" for="s" style=""><?php _e( 'Enter search keyword', 'archy' ) ?></label>
-					<input type="text" value="" name="s" id="s">
+					<input type="text" value="<?php echo get_search_query(); ?>" name="s" id="s">
 					<input type="submit" id="searchsubmit" value="Search">
 				</div>
 			</form>

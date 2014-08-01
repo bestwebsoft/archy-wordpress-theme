@@ -3,8 +3,8 @@ Theme Name: Archy
 Theme URI: http://bestwebsoft.com/theme/archy/
 Author: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
-Description: Archy is a neat and easy to use theme for your website.
-Version: 1.4
+Description: Archy is a powerful and sleek WordPress Theme that provides all the tools you need to launch a successful online store. The design is responsive and beautiful, it balances between style and function. A strict grid and clean design elements give the theme an organized layout which is a pleasure to scroll and to read. It is a beautiful magazine theme that does a great job displaying a bunch of content avoiding the feeling of clutter at the same time. Archy is absolutelly compatible with all plugins developed by BestWebSoft, so you will not have to worry about compatibility issues. We recommend you to upgrade your website's functionality with Contact Form plugin (http://wordpress.org/plugins/contact-form-plugin/) and Facebook Like Button (http://wordpress.org/plugins/facebook-button-plugin/). With these, you will be able to organize your website's work, which will be a huge bonus to the Theme's appealing design. Take a look at this theme's demo at http://bestwebsoft.com/wordpress_demo_theme/archy/
+Version: 1.6
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: left-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready, white, blue, gray
@@ -1290,7 +1290,7 @@ body.attachment .entry-header {
 .comment-body form label {
 	word-spacing: -1px;
 	display: block;
-	margin-bottom: 7px;
+	margin-top: 9px;
 }
 
 form {
@@ -1303,6 +1303,7 @@ form:nth-child(n) {
 
 input[type="text"],
 input[type="password"],
+input[type="email"],
 textarea {
 	background-color: #f8f8f8;
 	border: 1px solid #ddd;
@@ -1316,7 +1317,8 @@ textarea {
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="password"],
+input[type="email"] {
 	outline: none;
 	padding: 16px 10px;
 }
@@ -1592,7 +1594,8 @@ input[type="checkbox"] {
 /* clear and submit buttons styles */
 
 input[type="reset"],
-input[type="submit"] {
+input[type="submit"],
+input[type="button"] {
 	background-color: #444;
 	border: 0;
 	border-radius: 3px;
@@ -1607,7 +1610,8 @@ input[type="submit"] {
 }
 
 input[type="reset"]:hover,
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+input[type="button"]:hover {
 	background-color: #3d8fd5;
 }
 
