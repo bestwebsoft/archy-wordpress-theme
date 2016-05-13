@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * The template for displaying all pages
  *
@@ -7,7 +7,7 @@
  * 'pages' on your WordPress site will use a different template.
  *
  * @subpackage Archy
- * @since Archy 1.4
+ * @since      Archy 1.4
  */
 get_header();
 get_sidebar(); ?>
@@ -19,4 +19,4 @@ get_sidebar(); ?>
 			endwhile; // end of the loop. ?>
 		</div><!-- #archy-content -->
 	</div><!-- #archy-content-container -->
-<?php get_footer(); ?>
+<?php get_footer();

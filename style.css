@@ -1,14 +1,16 @@
 /*
 Theme Name: Archy
-Theme URI: http://bestwebsoft.com/theme/archy/
-Author: the BestWebSoft team
-Author URI: https://github.com/bestwebsoft
-Description: Archy is a powerful and sleek WordPress Theme that provides all the tools you need to launch a successful online store. The design is responsive and beautiful, it balances between style and function. A strict grid and clean design elements give the theme an organized layout which is a pleasure to scroll and to read. It is a beautiful magazine theme that does a great job displaying a bunch of content avoiding the feeling of clutter at the same time. Archy is absolutelly compatible with all plugins developed by BestWebSoft, so you will not have to worry about compatibility issues. We recommend you to upgrade your website's functionality with Contact Form plugin (http://wordpress.org/plugins/contact-form-plugin/) and Facebook Like Button (http://wordpress.org/plugins/facebook-button-plugin/). With these, you will be able to organize your website's work, which will be a huge bonus to the Theme's appealing design. Take a look at this theme's demo at http://bestwebsoft.com/wordpress_demo_theme/archy/
-Version: 1.6
+Theme URI: http://bestweblayout.com/products/archy/
+Author: BestWebLayout
+Author URI: http://bestweblayout.com/
+Description: Archy is a powerful and sleek WordPress Theme that provides all the tools you need to launch a successful online store. The design is responsive and beautiful, it balances between style and function. A strict grid and clean design elements give the theme an organized layout which is a pleasure to scroll and to read. It is a beautiful magazine theme that does a great job displaying a bunch of content avoiding the feeling of clutter at the same time. Archy is absolutely compatible with all plugins developed by BestWebSoft, so you will not have to worry about compatibility issues. We recommend you to upgrade your website's functionality with Contact Form plugin (http://wordpress.org/plugins/contact-form-plugin/) and Facebook Like Button (http://wordpress.org/plugins/facebook-button-plugin/). With these, you will be able to organize your website's work, which will be a huge bonus to the Theme's appealing design. Take a look at this theme's demo at http://wp-demo-theme.bestweblayout.com/archy/
+Version: 1.7
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: left-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready, white, blue, gray
 Text Domain: archy
+Archy WordPress Theme, Copyright 2016 BestWebLayout.com
+Theme Archy is distributed under the terms of the GNU GPL
 */
 
 /* Reset CSS*/
@@ -97,11 +99,11 @@ video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	vertical-align: baseline;
+	font-size: 100%;
 }
 
-/* for brousers not maintaining HTML5 */
+/* for browsers not maintaining HTML5 */
 article,
 aside,
 details,
@@ -124,8 +126,8 @@ body {
 }
 
 .archy-main-site {
-	margin: 38.5px auto; 
-	padding: 0px;
+	margin: 38.5px auto;
+	padding: 0;
 	width: 940px;
 }
 
@@ -147,14 +149,9 @@ $$______$$$$__$$__$$___$$____$$$$
 	font-family: "Arimo"; /* Font name */
 	font-weight: normal;
 	font-style: normal;
-	
+
 	src: url('fonts/Arimo/Arimo-Regular.eot'); /* IE9 */
-	src: url('fonts/Arimo/Arimo-Regular.eot?') format('eot'),  /* IE6-IE8 */
-	
-	url('fonts/Arimo/Arimo-Regular.woff') format('woff'), /* modern browsers */
-	url('fonts/Arimo/Arimo-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */ 
-	
-	url('fonts/Arimo/Arimo-Regular.svg#svgfonts/Arimo/Arimo-Regular') format('svg'); /* iOS */ 
+	src: url('fonts/Arimo/Arimo-Regular.eot?') format('eot'), /* IE6-IE8 */ url('fonts/Arimo/Arimo-Regular.woff') format('woff'), /* modern browsers */ url('fonts/Arimo/Arimo-Regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/Arimo/Arimo-Regular.svg#svgfonts/Arimo/Arimo-Regular') format('svg'); /* iOS */
 }
 
 @font-face {
@@ -163,12 +160,7 @@ $$______$$$$__$$__$$___$$____$$$$
 	font-style: normal;
 
 	src: url('fonts/Arimo/Arimo-Bold.eot'); /* IE9 */
-	src: url('fonts/Arimo/Arimo-Bold.eot?') format('eot'),  /* IE6-IE8 */
-	
-	url('fonts/Arimo/Arimo-Bold.woff') format('woff'), /* modern browsers */
-	url('fonts/Arimo/Arimo-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */ 
-	
-	url('fonts/Arimo/Arimo-Bold.svg#svgfonts/Arimo/Arimo-Bold') format('svg'); /* iOS */
+	src: url('fonts/Arimo/Arimo-Bold.eot?') format('eot'), /* IE6-IE8 */ url('fonts/Arimo/Arimo-Bold.woff') format('woff'), /* modern browsers */ url('fonts/Arimo/Arimo-Bold.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/Arimo/Arimo-Bold.svg#svgfonts/Arimo/Arimo-Bold') format('svg'); /* iOS */
 }
 
 @font-face {
@@ -177,12 +169,7 @@ $$______$$$$__$$__$$___$$____$$$$
 	font-style: italic;
 
 	src: url('fonts/Arimo/Arimo-Italic.eot'); /* IE9 */
-	src: url('fonts/Arimo/Arimo-Italic.eot?') format('eot'),  /* IE6-IE8 */
-	
-	url('fonts/Arimo/Arimo-Italic.woff') format('woff'), /* modern browsers */
-	url('fonts/Arimo/Arimo-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */ 
-	
-	url('fonts/Arimo/Arimo-Italic.svg#svgfonts/Arimo/Arimo-Italic') format('svg'); /* iOS */
+	src: url('fonts/Arimo/Arimo-Italic.eot?') format('eot'), /* IE6-IE8 */ url('fonts/Arimo/Arimo-Italic.woff') format('woff'), /* modern browsers */ url('fonts/Arimo/Arimo-Italic.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/Arimo/Arimo-Italic.svg#svgfonts/Arimo/Arimo-Italic') format('svg'); /* iOS */
 }
 
 @font-face {
@@ -191,134 +178,137 @@ $$______$$$$__$$__$$___$$____$$$$
 	font-style: italic;
 
 	src: url('fonts/Arimo/Arimo-BoldItalic.eot'); /* IE9 */
-	src: url('fonts/Arimo/Arimo-BoldItalic.eot?') format('eot'),  /* IE6-IE8 */
-	
-	url('fonts/Arimo/Arimo-BoldItalic.woff') format('woff'), /* modern browsers */
-	url('fonts/Arimo/Arimo-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */ 
-	
-	url('fonts/Arimo/Arimo-BoldItalic.svg#svgfonts/Arimo/Arimo-BoldItalic') format('svg'); /* iOS */
+	src: url('fonts/Arimo/Arimo-BoldItalic.eot?') format('eot'), /* IE6-IE8 */ url('fonts/Arimo/Arimo-BoldItalic.woff') format('woff'), /* modern browsers */ url('fonts/Arimo/Arimo-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/Arimo/Arimo-BoldItalic.svg#svgfonts/Arimo/Arimo-BoldItalic') format('svg'); /* iOS */
 }
 
 /* Generated by Font Squirrel (http://www.fontsquirrel.com) on October 24, 2013 */
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/Open-Sans/fonts/Open-Sans/opensans-semibolditalic-webfont.eot');
-    src: url('fonts/Open-Sans/opensans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Open-Sans/opensans-semibolditalic-webfont.woff') format('woff'),
-         url('fonts/Open-Sans/opensans-semibolditalic-webfont.ttf') format('truetype'),
-         url('fonts/Open-Sans/opensans-semibolditalic-webfont.svg#open_sanssemibold_italic') format('svg');
-    font-weight: 600;
-    font-style: italic;
+	font-family: 'Open Sans';
+	src: url('fonts/Open-Sans/opensans-semibolditalic-webfont.eot');
+	src: url('fonts/Open-Sans/opensans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Open-Sans/opensans-semibolditalic-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-semibolditalic-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-semibolditalic-webfont.svg#open_sanssemibold_italic') format('svg');
+	font-weight: 600;
+	font-style: italic;
 
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/Open-Sans/opensans-semibold-webfont.eot');
-    src: url('fonts/Open-Sans/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Open-Sans/opensans-semibold-webfont.woff') format('woff'),
-         url('fonts/Open-Sans/opensans-semibold-webfont.ttf') format('truetype'),
-         url('fonts/Open-Sans/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
-    font-weight: 600;
-    font-style: normal;
+	font-family: 'Open Sans';
+	src: url('fonts/Open-Sans/opensans-semibold-webfont.eot');
+	src: url('fonts/Open-Sans/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Open-Sans/opensans-semibold-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-semibold-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+	font-weight: 600;
+	font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/Open-Sans/opensans-regular-webfont.eot');
-    src: url('fonts/Open-Sans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Open-Sans/opensans-regular-webfont.woff') format('woff'),
-         url('fonts/Open-Sans/opensans-regular-webfont.ttf') format('truetype'),
-         url('fonts/Open-Sans/opensans-regular-webfont.svg#open_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Open Sans';
+	src: url('fonts/Open-Sans/opensans-regular-webfont.eot');
+	src: url('fonts/Open-Sans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Open-Sans/opensans-regular-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-regular-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/Open-Sans/opensans-lightitalic-webfont.eot');
-    src: url('fonts/Open-Sans/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Open-Sans/opensans-lightitalic-webfont.woff') format('woff'),
-         url('fonts/Open-Sans/opensans-lightitalic-webfont.ttf') format('truetype'),
-         url('fonts/Open-Sans/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
-    font-weight: 300;
-    font-style: italic;
+	font-family: 'Open Sans';
+	src: url('fonts/Open-Sans/opensans-lightitalic-webfont.eot');
+	src: url('fonts/Open-Sans/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Open-Sans/opensans-lightitalic-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-lightitalic-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
+	font-weight: 300;
+	font-style: italic;
 
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/Open-Sans/opensans-light-webfont.eot');
-    src: url('fonts/Open-Sans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Open-Sans/opensans-light-webfont.woff') format('woff'),
-         url('fonts/Open-Sans/opensans-light-webfont.ttf') format('truetype'),
-         url('fonts/Open-Sans/opensans-light-webfont.svg#open_sanslight') format('svg');
-    font-weight: 300;
-    font-style: normal;
+	font-family: 'Open Sans';
+	src: url('fonts/Open-Sans/opensans-light-webfont.eot');
+	src: url('fonts/Open-Sans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Open-Sans/opensans-light-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-light-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-light-webfont.svg#open_sanslight') format('svg');
+	font-weight: 300;
+	font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/Open-Sans/opensans-italic-webfont.eot');
-    src: url('fonts/Open-Sans/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Open-Sans/opensans-italic-webfont.woff') format('woff'),
-         url('fonts/Open-Sans/opensans-italic-webfont.ttf') format('truetype'),
-         url('fonts/Open-Sans/opensans-italic-webfont.svg#open_sansitalic') format('svg');
-    font-weight: normal;
-    font-style: italic;
+	font-family: 'Open Sans';
+	src: url('fonts/Open-Sans/opensans-italic-webfont.eot');
+	src: url('fonts/Open-Sans/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Open-Sans/opensans-italic-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-italic-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+	font-weight: normal;
+	font-style: italic;
 
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/Open-Sans/opensans-extrabolditalic-webfont.eot');
-    src: url('fonts/Open-Sans/opensans-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Open-Sans/opensans-extrabolditalic-webfont.woff') format('woff'),
-         url('fonts/Open-Sans/opensans-extrabolditalic-webfont.ttf') format('truetype'),
-         url('fonts/Open-Sans/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic') format('svg');
-    font-weight: 800;
-    font-style: italic;
+	font-family: 'Open Sans';
+	src: url('fonts/Open-Sans/opensans-extrabolditalic-webfont.eot');
+	src: url('fonts/Open-Sans/opensans-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Open-Sans/opensans-extrabolditalic-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-extrabolditalic-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic') format('svg');
+	font-weight: 800;
+	font-style: italic;
 
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/Open-Sans/opensans-extrabold-webfont.eot');
-    src: url('fonts/Open-Sans/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Open-Sans/opensans-extrabold-webfont.woff') format('woff'),
-         url('fonts/Open-Sans/opensans-extrabold-webfont.ttf') format('truetype'),
-         url('fonts/Open-Sans/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
-    font-weight: 800;
-    font-style: normal;
+	font-family: 'Open Sans';
+	src: url('fonts/Open-Sans/opensans-extrabold-webfont.eot');
+	src: url('fonts/Open-Sans/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Open-Sans/opensans-extrabold-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-extrabold-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+	font-weight: 800;
+	font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/Open-Sans/opensans-bolditalic-webfont.eot');
-    src: url('fonts/Open-Sans/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Open-Sans/opensans-bolditalic-webfont.woff') format('woff'),
-         url('fonts/Open-Sans/opensans-bolditalic-webfont.ttf') format('truetype'),
-         url('fonts/Open-Sans/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
-    font-weight: 700;
-    font-style: italic;
+	font-family: 'Open Sans';
+	src: url('fonts/Open-Sans/opensans-bolditalic-webfont.eot');
+	src: url('fonts/Open-Sans/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Open-Sans/opensans-bolditalic-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-bolditalic-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+	font-weight: 700;
+	font-style: italic;
 
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/Open-Sans/opensans-bold-webfont.eot');
-    src: url('fonts/Open-Sans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Open-Sans/opensans-bold-webfont.woff') format('woff'),
-         url('fonts/Open-Sans/opensans-bold-webfont.ttf') format('truetype'),
-         url('fonts/Open-Sans/opensans-bold-webfont.svg#open_sansbold') format('svg');
-    font-weight: 700;
-    font-style: normal;
+	font-family: 'Open Sans';
+	src: url('fonts/Open-Sans/opensans-bold-webfont.eot');
+	src: url('fonts/Open-Sans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Open-Sans/opensans-bold-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-bold-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-bold-webfont.svg#open_sansbold') format('svg');
+	font-weight: 700;
+	font-style: normal;
 
+}
+
+article,
+aside,
+nav,
+#archy-content {
+	word-wrap: break-word;
+	word-break: break-all;
 }
 
 /* 
@@ -329,20 +319,20 @@ $$$$$$_$$$$___$$$$$$_$$__$$_$$$$___$$$$$
 $$__$$_$$_____$$__$$_$$__$$_$$_____$$__$$
 $$__$$_$$$$$__$$__$$_$$$$$__$$$$$__$$__$$
 
- */
+*/
 
 .archy-site-header {
-	background-color: #fff;
-	box-shadow: 0 0 5px 0px #d0d0d0;
 	position: relative;
 	margin-bottom: 30px;
 	min-height: 111px;
 	width: 100%;
+	background-color: #fff;
+	box-shadow: 0 0 5px 0 #d0d0d0;
 }
 
 .archy-site-header > .archy-custom-header {
-	overflow: hidden;
 	position: absolute;
+	overflow: hidden;
 	max-width: 100%;
 }
 
@@ -352,7 +342,6 @@ $$__$$_$$$$$__$$__$$_$$$$$__$$$$$__$$__$$
 
 .archy-site-header-container {
 	padding: 25px 10px 0 30px;
-	/*padding: 30px 30px 0;*/
 }
 
 .archy-site-header-container-group {
@@ -361,10 +350,8 @@ $$__$$_$$$$$__$$__$$_$$$$$__$$$$$__$$__$$
 }
 
 #navigation {
-	padding: 0;
 	float: right;
-	/*width: 59%;*/
-	/*padding: 9px 0px 0px;*/
+	padding: 0;
 }
 
 #navigation .current-menu-item > a {
@@ -372,24 +359,23 @@ $$__$$_$$$$$__$$__$$_$$$$$__$$$$$__$$__$$
 }
 
 .archy-main-navigation ul li {
+	position: relative;
 	display: block;
 	float: right;
-	font: 900 14px "Arial";
-	letter-spacing: 0px;
-	list-style-type: none;
 	margin: 22px 20px;
-	/*padding: 8px 0 8px 40px;*/
-	position: relative;
+	list-style-type: none;
+	word-spacing: 0;
 	word-wrap: break-word;
-	word-spacing: 0px;
+	letter-spacing: 0;
+	font: 900 14px "Arial";
 }
 
 .archy-main-navigation ul li:hover {
-	cursor: pointer;
 	z-index: 101;
+	cursor: pointer;
 }
 
-.archy-main-navigation ul li:hover > a{
+.archy-main-navigation ul li:hover > a {
 	color: #3d8fd5;
 }
 
@@ -408,55 +394,53 @@ div.menu .children > li:hover > .children {
 }
 
 .up-arrow {
-	background: url(images/up-arrow.png) 0 0 no-repeat;
-	display: none;
-	height: 8px;
 	position: absolute;
-	right: 17px;
 	top: 198%;
-	/*top: 122%;*/
-	width: 14px;
+	right: 17px;
 	z-index: 101;
+	display: none;
+	width: 14px;
+	height: 8px;
+	background: url(images/up-arrow.png) 0 0 no-repeat;
 }
 
 .archy-main-navigation > ul.menu > li > .sub-menu,
 div.menu > ul > li > .children {
-	left: auto;
-	font-size: 0px;
-	right: 0%;
 	top: 248%;
-	/*top: 147%;*/
+	right: 0;
+	left: auto;
 	z-index: 100;
+	font-size: 0;
 }
 
 .archy-main-navigation .sub-menu,
 .archy-main-navigation .children {
+	position: absolute;
+	top: 0;
+	left: 100.3%;
+	display: none;
 	background-color: #fff;
 	box-shadow: 0 0 1px 1px #ddd;
+	font-size: 0;
 	cursor: pointer;
-	display: none;
-	font-size: 0px;
-	left: 100.3%;
-	position: absolute;
-	top: 0%;
 }
 
 .archy-main-navigation .sub-menu .menu-item,
 .archy-main-navigation .children li {
-	border-bottom: 1px #ddd dashed;
-	float: none;
-	padding: 13px 17px 13px 19px;
 	position: relative;
+	float: none;
 	margin: 0;
-	text-transform: capitalize;
+	padding: 13px 17px 13px 19px;
 	width: 184px;
+	border-bottom: 1px #ddd dashed;
+	text-transform: capitalize;
 	word-spacing: 1px;
 }
 
 .archy-main-navigation .sub-menu .menu-item:last-child,
 .archy-main-navigation .children li:last-child {
-	border-bottom-width: 0px;
 	padding-bottom: 14px;
+	border-bottom-width: 0;
 }
 
 .archy-main-navigation .sub-menu .menu-item:last-child a,
@@ -467,13 +451,13 @@ div.menu > ul > li > .children {
 .archy-main-navigation .sub-menu .menu-item a,
 .archy-main-navigation .children li a {
 	display: block;
-	font: 500 10pt/22px 'Open Sans', sans-serif;
 	text-transform: capitalize;
 	word-spacing: 1px;
-	letter-spacing: 0px;
+	letter-spacing: 0;
+	font: 500 10pt/22px 'Open Sans', sans-serif;
 }
 
-.archy-site-title{
+.archy-site-title {
 	text-transform: uppercase;
 }
 
@@ -481,17 +465,14 @@ div.menu > ul > li > .children {
 	float: left;
 	padding-top: 7px;
 	max-width: 98%;
-	/*width: 41%;*/
-	/*padding-top: 1px;
-	margin-left: -46.875%;*/
 }
 
 header h1 {
 	color: #444;
-	font: 900 18pt "Arial" ;
-	letter-spacing: 2px;
 	text-transform: uppercase;
 	word-wrap: break-word;
+	letter-spacing: 2px;
+	font: 900 18pt "Arial";
 }
 
 header h1 a {
@@ -505,18 +486,18 @@ header h1 a:hover {
 }
 
 header h2 {
-	color: #aaa;
-	font: 10pt "Arimo",sans-serif;
-	letter-spacing: 0;
 	padding: 3px 0 2px;
+	color: #aaa;
 	word-spacing: 0;
 	word-wrap: break-word;
+	letter-spacing: 0;
+	font: 10pt "Arimo", sans-serif;
 }
 
 .archy-clearfix:after {
+	display: table;
 	clear: both;
 	content: "";
-	display: table;
 }
 
 /*
@@ -530,44 +511,44 @@ _$$$$__$$$$$$_$$$$$$_$$$$$__$$$$$__$$__$$
 */
 
 .archy-slider {
-	background-size: auto 880px;
-	overflow: hidden;
 	position: relative;
-	height: 344px;
+	overflow: hidden;
 	width: 100%;
+	height: 344px;
+	background-size: auto 880px;
 }
 
 .attachment-slide {
-	left: 0px;
 	position: absolute;
-	height: 344px;
+	left: 0;
 	width: 100%;
+	height: 344px;
 }
 
 .archy-slider-background-description {
-	bottom: 0px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 75px;
 	background-color: #000;
 	opacity: 0.6;
-	position: absolute;
-	height: 75px;
-	width: 100%;
 }
 
 .archy-slider-description {
+	position: absolute;
 	bottom: 0;
-	color: #fff;
+	z-index: 10;
 	overflow: hidden;
 	padding: 6px 30px;
-	position: absolute;
 	height: 53px;
-	z-index: 10;
+	color: #fff;
 }
 
 .archy-slider-title {
 	color: #fff;
-	font: bolder 18px "Arial";
-	letter-spacing: 1px;
 	word-spacing: 1px;
+	letter-spacing: 1px;
+	font: bolder 18px "Arial";
 }
 
 .archy-slider-title a {
@@ -580,16 +561,16 @@ _$$$$__$$$$$$_$$$$$$_$$$$$__$$$$$__$$__$$
 }
 
 .archy-slider-text {
-	color: #dbdad7;
-	cursor: default;
-	font: 13px "Arimo", sans-serif;
-	height: 17px;
-	letter-spacing: 0;
 	overflow: hidden;
 	padding: 5px 0 0;
+	height: 17px;
+	color: #dbdad7;
 	text-overflow: ellipsis;
-	-o-text-overflow: ellipsis; /* Opera 9-11 */
 	word-spacing: -0.6px;
+	letter-spacing: 0;
+	font: 13px "Arimo", sans-serif;
+	cursor: default; /* Opera 9-11 */
+	-o-text-overflow: ellipsis;
 }
 
 .archy-slider div { /* slide container */
@@ -614,11 +595,11 @@ _$$$$__$$$$$$_$$$$$$_$$$$$__$$$$$__$$__$$
 
 .archy-left-slider-handler,
 .archy-right-slider-handler {
-	height: 47px;
 	position: absolute;
+	z-index: 30;
 	margin-top: 149px;
 	width: 47px;
-	z-index: 30;
+	height: 47px;
 }
 
 .archy-left-slider-handler:hover,
@@ -627,13 +608,13 @@ _$$$$__$$$$$$_$$$$$$_$$$$$__$$$$$__$$__$$
 }
 
 .archy-left-slider-handler {
-	background: url( 'images/slider-arrow-left.png' ) no-repeat 50% 50% #ddd;
 	left: 0;
+	background: url('images/slider-arrow-left.png') no-repeat 50% 50% #ddd;
 }
 
 .archy-right-slider-handler {
-	background: url( 'images/slider-arrow-right.png' ) no-repeat 50% 50% #ddd;
 	right: 0;
+	background: url('images/slider-arrow-right.png') no-repeat 50% 50% #ddd;
 }
 
 /* Set margin between elements */
@@ -664,63 +645,55 @@ _$$$$__$$$$$$_$$$$$__$$$$$__$$$$$__$$__$$_$$__$$
 */
 
 .widget-area {
-	color: #aaa;
 	float: left;
 	overflow: hidden;
 	width: 31.914893617%;
+	color: #aaa;
 }
 
 .widget_search {
-	min-height: 47px;
 	position: relative;
+	min-height: 47px;
 	width: 100%; /* width of field with button */
 }
 
 .widget_search form {
-	border: 0;
 	position: relative;
+	border: 0;
 }
 
-.searchform div label.screen-reader-text {
-	color: #aaa;
-	padding: 16px 10px;
-	position: absolute;
-	z-index: 10;
-}
-
-.screen-reader-text,
 .widget_search form input[type="text"] {
-	border-radius: 0;
-	font: 13px "Arimo",sans-serif;
-	letter-spacing: 0px;
-	padding: 0 10px;
 	margin: 0;
+	padding: 0 10px;
+	border-radius: 0;
 	word-spacing: 1px;
+	letter-spacing: 0;
+	font: 13px "Arimo", sans-serif;
 }
 
 .widget_search form input[type="text"] {
-	border: none;
+	padding: 16px 10px;
+	width: 74%;
+	outline: none;
+	border: none; /* delete highlight in Chrome and Safari */
 	background-color: #fff;
 	color: #666;
-	outline: none; /* delete highlight in Chrome and Safari */
-	vertical-align: middle; 
-	padding: 16px 10px;
-	-webkit-appearance: none; /* delete border in Chrome and Safari */
-	width: 74%;
+	vertical-align: middle; /* delete border in Chrome and Safari */
+	-webkit-appearance: none;
 }
 
 .widget_search form input[type="submit"] {
-	background: url(images/search_button.png) no-repeat 50% 50%;
-	border: 0;
-	border-radius: 0;
-	top: 0;
-	color: #3d8fd5;
-	font-size: 0;
 	position: absolute;
+	top: 0;
 	right: 0;
-	height: 47px;
 	margin: 0;
 	width: 15.666666667%;
+	height: 47px;
+	border: 0;
+	border-radius: 0;
+	background: url(images/search_button.png) no-repeat 50% 50%;
+	color: #3d8fd5;
+	font-size: 0;
 }
 
 .widget-area aside:first-child { /* set margin for each child div of aside */
@@ -743,13 +716,13 @@ _$$$$__$$$$$$_$$$$$__$$$$$__$$$$$__$$__$$_$$__$$
 }
 
 .widget-title {
-	color: #444;
-	font: 900 8pt Arial;
-	letter-spacing: 1px;
-	list-style-type: none;
 	margin-bottom: 25px;
+	color: #444;
+	list-style-type: none;
 	text-transform: uppercase;
 	word-spacing: 1px;
+	letter-spacing: 1px;
+	font: 900 8pt Arial;
 }
 
 .widget_recent_comments {
@@ -767,33 +740,33 @@ _$$$$__$$$$$$_$$$$$__$$$$$__$$$$$__$$__$$_$$__$$
 .widget ul li,
 .widget .textwidget,
 .widget .textwidget p {
-	font: 13px "Arimo", sans-serif;
-	letter-spacing: 0;
-	list-style-type: none;
 	padding-top: 11px;
 	max-width: 100%;
+	list-style-type: none;
 	text-transform: none;
 	word-spacing: 0;
+	letter-spacing: 0;
+	font: 13px "Arimo", sans-serif;
 }
 
 .widget .textwidget,
 .widget .textwidget p:first-child {
-	padding-top: 0px;
+	padding-top: 0;
 }
 
 .widget ul li > ul {
-	margin-top: 0em;
-	padding-left: 1em
+	margin-top: 0;
+	padding-left: 1em;
 }
 
 /* select styles */
 
 .widget .archy-select {
-	background: url("images/select-arrow-widget.png") no-repeat scroll right 0 #fcfcfc;
 	border-radius: 0;
+	background: url("images/select-arrow-widget.png") no-repeat scroll right 0 #fcfcfc;
 }
 
-.widget .archy-select .archy-option { 
+.widget .archy-select .archy-option {
 	font: 200 13px 'Arimo', sans-serif;
 }
 
@@ -805,15 +778,15 @@ _$$$$__$$$$$$_$$$$$__$$$$$__$$$$$__$$__$$_$$__$$
 }
 
 .widget .textwidget .wp-caption-text {
-	padding-top: 0px;
+	padding-top: 0;
 }
 
 /* image styles */
 
 .widget img {
-	height: auto;
 	margin: 18px 0 6px;
 	max-width: 100%;
+	height: auto;
 }
 
 .widget .wp-smiley {
@@ -837,18 +810,18 @@ _$$$$__$$$$$$_$$$$$__$$$$$__$$$$$__$$__$$_$$__$$
 }
 
 .widget .archy-upload-file {
-	height: 78px;
 	width: 94%;
+	height: 78px;
 }
 
 .widget .archy-upload-file .archy-upload-file-input {
-	background-position: 252px -3px;
 	width: 260px;
+	background-position: 252px -3px;
 }
 
 .widget .archy-upload-file .archy-upload-file-status {
-	text-align: center;
 	width: 252px;
+	text-align: center;
 }
 
 .widget .textwidget #cntctfrm_contact_form input.text,
@@ -871,24 +844,24 @@ _$$$$__$$$$$$_$$$$$__$$$$$__$$$$$__$$__$$_$$__$$
 /* table styles */
 
 table {
-	color: #666666;
-	font: 10pt "Arimo",sans-serif;
-	letter-spacing: 0;
 	margin-top: 23px;
-	text-transform: none;
 	width: 100%;
+	color: #666666;
+	text-transform: none;
 	word-spacing: -1px;
+	letter-spacing: 0;
+	font: 10pt "Arimo", sans-serif;
 }
 
 table caption,
 table thead {
 	color: #444444;
-	font: 900 8pt Arial;
-	letter-spacing: 1px;
 	list-style-type: none;
-	text-transform: capitalize;
 	text-align: left;
+	text-transform: capitalize;
 	word-spacing: 0;
+	letter-spacing: 1px;
+	font: 900 8pt Arial;
 }
 
 table caption {
@@ -900,9 +873,9 @@ table tfoot #prev,
 table tfoot #next {
 	text-align: center;
 }
-	
-table td, 
-table th  {
+
+table td,
+table th {
 	padding-top: 10px;
 }
 
@@ -920,10 +893,12 @@ _$$$$___$$$$__$$__$$___$$___$$$$$__$$__$$___$$
 
 */
 
+
+
 .archy-main-content,
 #archy-content-container {
-	width: 63.829787234%;
 	float: right;
+	width: 63.829787234%;
 }
 
 .post,
@@ -932,10 +907,10 @@ article.page,
 #archy-content-container article,
 #commentspopup,
 #content {
-	background-color: #fff;
-	box-shadow: 0 0 5px 0px #d0d0d0;
-	padding: 22px 30px;
 	margin: 0 0 40px 0;
+	padding: 22px 30px;
+	background-color: #fff;
+	box-shadow: 0 0 5px 0 #d0d0d0;
 }
 
 #archy-content-container article.paging-nav {
@@ -944,7 +919,7 @@ article.page,
 
 .page:last-child,
 .post:last-child {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 /* Set hover properties for all hovers */
@@ -957,13 +932,13 @@ article.page,
 }
 
 .post.sticky .archy-featured-post {
+	margin-bottom: 20px;
 	border-top: 4px double #ddd;
 	border-bottom: 4px double #ddd;
 	color: #666;
+	text-align: center;
 	font: 200 10pt 'Arimo', sans-serif;
 	line-height: 3.692307692;
-	margin-bottom: 20px;
-	text-align: center;
 }
 
 .entry-title,
@@ -971,11 +946,11 @@ article.page,
 #archy-content .entry-header,
 #content .entry-header {
 	color: #444;
-	font: 900 17pt 'Arial';
-	letter-spacing: 0px;
 	text-decoration: none;
 	text-transform: none;
 	word-spacing: 2px;
+	letter-spacing: 0;
+	font: 900 17pt 'Arial';
 }
 
 .entry-title {
@@ -983,16 +958,16 @@ article.page,
 }
 
 .entry-title a {
-	font: 900 21px 'Arial';
-	letter-spacing: 1px;
 	word-spacing: 1px;
+	letter-spacing: 1px;
+	font: 900 21px 'Arial';
 }
 
 .date-category,
 article.paging-nav .nav-links a {
-	font: 200 13px 'Arimo', sans-serif;
-	padding: 2px 0px;
 	margin-top: 5px;
+	padding: 2px 0;
+	font: 200 13px 'Arimo', sans-serif;
 }
 
 article.paging-nav .nav-links a {
@@ -1000,9 +975,9 @@ article.paging-nav .nav-links a {
 }
 
 .date-category a {
-	text-transform: none;
-	text-decoration: none;
 	color: #aaa;
+	text-decoration: none;
+	text-transform: none;
 }
 
 .date-category a:hover {
@@ -1014,15 +989,15 @@ article.paging-nav .nav-links a {
 .entry-summary,
 .comment-body,
 #commentspopup {
+	margin-top: 8px;
 	color: #666;
+	word-spacing: -1px;
 	font: 200 10pt 'Arimo', sans-serif;
 	line-height: 21px;
-	margin-top: 8px;
-	word-spacing: -1px;
 }
 
 body.attachment .entry-content {
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 #commentspopup {
@@ -1030,12 +1005,12 @@ body.attachment .entry-content {
 }
 
 .entry-content p {
-	word-spacing: 0px;
+	word-spacing: 0;
 }
 
 .entry-content.archy-clearfix:after,
 .entry-summary.archy-clearfix:after {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 }
 
 .post img,
@@ -1049,8 +1024,8 @@ body.attachment .entry-content {
 .comment-body img,
 .comment-body div,
 #commentspopup div {
-	height: auto;
 	max-width: 100%;
+	height: auto;
 }
 
 .entry-content p img,
@@ -1097,10 +1072,10 @@ body.attachment div.attachment img {
 .thumbnail-caption-text,
 .entry-content .wp-caption-text,
 .comment-body .wp-caption-text {
+	margin: 0 0 20px;
 	color: #aaa;
 	font: 200 10pt 'Arimo', sans-serif;
 	font-style: italic;
-	margin: 0px 0px 20px;
 }
 
 .entry-content .wp-caption-text a:hover,
@@ -1109,10 +1084,10 @@ body.attachment div.attachment img {
 }
 
 .entry-meta {
-	color: #aaa;
-	font: 200 13px 'Arimo', sans-serif;
 	margin: 22px 0 -3px;
-	word-spacing: 0px;
+	color: #aaa;
+	word-spacing: 0;
+	font: 200 13px 'Arimo', sans-serif;
 }
 
 .entry-meta .tag-list {
@@ -1131,22 +1106,22 @@ body.attachment div.attachment img {
 }
 
 .entry-meta .comments-link {
-	text-align: right;
 	margin: 5px 0 0;
+	text-align: right;
 }
 
 .entry-meta .comments-link + .top-link {
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 .entry-meta hr,
 #archy-content hr,
 #content hr {
-	border: 0;
-	border-bottom: 1px solid #fff;
-	border-top: 1px dashed;
-	color: #ddd;
 	margin-bottom: 16px;
+	border: 0;
+	border-top: 1px dashed;
+	border-bottom: 1px solid #fff;
+	color: #ddd;
 }
 
 .entry-meta a {
@@ -1169,16 +1144,16 @@ body.attachment div.attachment img {
 }
 
 body.attachment .entry-header {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .entry-content hr,
 .comment-body hr {
+	margin: 22px 0 24px;
 	border: 0;
-	border-bottom: 1px solid #fff;
 	border-top: 1px dashed #ddd;
+	border-bottom: 1px solid #fff;
 	color: #666;
-	margin: 22px 0px 24px;
 }
 
 .entry-content h1,
@@ -1195,11 +1170,11 @@ body.attachment .entry-header {
 .comment-body h6,
 #commentspopup h1,
 #commentspopup h2 {
-	color: #444;
-	font: 900 24px 'Arial';
-	letter-spacing: 1px;
 	margin: 16px 0;
+	color: #444;
 	word-spacing: 1px;
+	letter-spacing: 1px;
+	font: 900 24px 'Arial';
 }
 
 .entry-content h2,
@@ -1256,18 +1231,18 @@ body.attachment .entry-header {
 
 .entry-content dt,
 .comment-body dt {
-	color: #444;
-	font: 900 11pt 'Arimo', sans-serif;
-	padding-left: 30px;
 	margin-top: 2px;
+	padding-left: 30px;
+	color: #444;
 	word-spacing: 1px;
+	font: 900 11pt 'Arimo', sans-serif;
 }
 
 .entry-content dd,
 .comment-body dd {
 	margin-top: 2px;
 	padding-left: 30px;
-	word-spacing: 0px;
+	word-spacing: 0;
 }
 
 .entry-content ol,
@@ -1281,16 +1256,16 @@ body.attachment .entry-header {
 .entry-content ul li,
 .comment-body ol li,
 .comment-body ul li {
-	padding-left: 5px;
 	margin-top: 5px;
+	padding-left: 5px;
 	word-spacing: -1px;
 }
 
 .entry-content form label,
 .comment-body form label {
-	word-spacing: -1px;
 	display: block;
 	margin-top: 9px;
+	word-spacing: -1px;
 }
 
 form {
@@ -1305,152 +1280,152 @@ input[type="text"],
 input[type="password"],
 input[type="email"],
 textarea {
-	background-color: #f8f8f8;
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	color: #666;
-	font: 200 10pt 'Arimo', sans-serif;
 	margin-left: -1px;
 	max-width: 520px;
 	width: 37.2%;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	color: #666;
+	font: 200 10pt 'Arimo', sans-serif;
 
 }
 
 input[type="text"],
 input[type="password"],
 input[type="email"] {
-	outline: none;
 	padding: 16px 10px;
+	outline: none;
 }
 
 textarea {
+	padding: 10px;
 	height: 87px;
 	outline: none;
-	padding: 10px;
 }
 
 #commentspopup textarea {
-	width: 304px;
 	max-width: 99%;
+	width: 304px;
 }
 
 /* select styles */
 
 select {
-	background: #ddd;
-	border-radius: 3px;
-	border: 0px;
-	color: #666;
-	height: 46px;
-	margin-left: 0px;
 	overflow: hidden;
+	margin-left: 0;
 	padding: 14px 6px;
-	text-align: left;
 	width: 36.833333333%;
-	appearance: button; /* CSS3 */	
+	height: 46px;
+	border: 0;
+	border-radius: 3px;
+	background: #ddd;
+	color: #666;
+	text-align: left;
+	appearance: button; /* CSS3 */
 	-webkit-appearance: button; /* Safari and Chrome */
-   	-moz-appearance: button; /* Firefox */
+	-moz-appearance: button; /* Firefox */
 	-ms-appearance: button; /* Internet Explorer */
 	-o-appearance: button; /* Opera */
 }
 
 select:focus {
-	border: 0px;
-	outline: none; /* remove focus ring from Webkit */
+	outline: none;
+	border: 0; /* remove focus ring from Webkit */
 	text-decoration-line: none;
 	-webkit-appearance: normal;
 }
 
 select:hover {
-	border: 0px;
-	outline: none; /* remove focus ring from Webkit */
+	outline: none;
+	border: 0; /* remove focus ring from Webkit */
 	text-decoration-line: none;
 	-webkit-appearance: normal;
 }
 
 select:active {
-	border: 0px;
-	outline: none; /* remove focus ring from Webkit */
+	outline: none;
+	border: 0; /* remove focus ring from Webkit */
 	text-decoration-line: none;
 	-webkit-appearance: normal;
 }
 
 div.archy-select {
-	background: url("images/select-arrow.png") no-repeat scroll right 0 #ddd;
-	border-radius: 3px;
-	border: 0px;
-	display: -moz-inline-stack; /* inline-block for Mozilla 2 */
-	display: inline-block; /* inline-block for other browsers */
-	height: 22px;
+	display: -moz-inline-stack;
+	display: inline-block;
 	padding: 12px 10px;
-	width: 200px;
+	width: 200px; /* inline-block for Mozilla 2 */
+	height: 22px; /* inline-block for other browsers */
+	border: 0;
+	border-radius: 3px;
+	background: url("images/select-arrow.png") no-repeat scroll right 0 #ddd;
 }
 
 .archy-select h1 {
-	color: #666;
-	cursor: default;
-	font: normal 13px 'Arial';
-	overflow:hidden;
-	-ms-text-overflow: ellipsis;
-	-o-text-overflow: ellipsis;
-	letter-spacing: 0px;
+	overflow: hidden;
 	margin: 4px 0 0;
-	text-align: left;
-	text-overflow: ellipsis;
-	white-space: nowrap;
 	width: 86%;
-	word-spacing: 0px;
-}
-
-.archy-select .archy-select-block {
-	background-color: #fff;
-	border: 1px solid #ddd;
-	border-top-color: #c0c0c0;
-	display: -moz-inline-stack; /* inline-block for Mozilla 2 */
-	display: inline-block; /* inline-block for other browsers */
-	height: initial;
-	overflow-y: auto;
-	padding: 12px;
-	position: absolute;
-	margin: 14px 0 0 -10px;
-	max-height: 247px;
-	/*margin: 45px 0px 0 -221px;*/
-	width: 194px;
-	z-index: 99;
-}
-
-.archy-optgroup {
-	cursor: default;
-	margin-top: 13px;
-}
-
-.archy-optgroup:first-child {
-	margin-top: 0px;
-}
-
-.archy-optgroup h1 {
-	color: #aaa;
-	font: 200 9pt 'Arimo', sans-serif;
-	letter-spacing: 0px;
-	margin: 0 0 0 -3px;
-	overflow:hidden;
-	-ms-text-overflow: ellipsis;
-	-o-text-overflow: ellipsis;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	word-spacing: 1px;
-}
-
-.archy-option {
 	color: #666;
-	margin: 9px 0 0;
-	padding: 2px 0 0 17px;
-	overflow:hidden;
+	text-align: left;
 	-ms-text-overflow: ellipsis;
-	-o-text-overflow: ellipsis;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	word-spacing: 0;
+	letter-spacing: 0;
+	font: normal 13px 'Arial';
+	cursor: default;
+	-o-text-overflow: ellipsis;
+}
+
+.archy-select .archy-select-block {
+	position: absolute;
+	z-index: 99;
+	display: -moz-inline-stack;
+	display: inline-block; /* inline-block for Mozilla 2 */
+	overflow-y: auto; /* inline-block for other browsers */
+	margin: 14px 0 0 -10px;
+	padding: 12px;
+	max-height: 247px;
+	width: 194px;
+	height: initial;
+	border: 1px solid #ddd;
+	/*margin: 45px 0 0 -221px;*/
+	border-top-color: #c0c0c0;
+	background-color: #fff;
+}
+
+.archy-optgroup {
+	margin-top: 13px;
+	cursor: default;
+}
+
+.archy-optgroup:first-child {
+	margin-top: 0;
+}
+
+.archy-optgroup h1 {
+	overflow: hidden;
+	margin: 0 0 0 -3px;
+	color: #aaa;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-spacing: 1px;
+	letter-spacing: 0;
+	font: 200 9pt 'Arimo', sans-serif;
+	-o-text-overflow: ellipsis;
+}
+
+.archy-option {
+	overflow: hidden;
+	margin: 9px 0 0;
+	padding: 2px 0 0 17px;
+	color: #666;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-spacing: 0;
+	-o-text-overflow: ellipsis;
 }
 
 .archy-option:first-child {
@@ -1474,8 +1449,8 @@ div.archy-select {
 
 .radio,
 .checkbox {
-	cursor: pointer;
 	margin: 2px 8px 20px 32px;
+	cursor: pointer;
 }
 
 form .radio + label,
@@ -1483,36 +1458,36 @@ form .archy-fake-radio-container + label,
 form .checkbox + label,
 form .archy-fake-checkbox-container + label {
 	display: inline;
+	word-spacing: 0;
 	cursor: pointer;
-	word-spacing: 0px;
 }
 
 input[type="radio"],
 input[type="checkbox"] {
-	cursor: pointer;
-	opacity: 0;
 	position: absolute;
-	margin: 3px 0px 0px 3px;
 	z-index: -100;
+	margin: 3px 0 0 3px;
+	opacity: 0;
+	cursor: pointer;
 }
 
 .archy-fake-radio-container:first-child,
 .archy-fake-checkbox-container:first-child {
-	margin: 2px 9px 0px 29px;
+	margin: 2px 9px 0 29px;
 }
 
 .archy-fake-radio-container,
 .archy-fake-checkbox-container {
 	float: left;
-	margin: 2px 9px 0px 29px;
+	margin: 2px 9px 0 29px;
 }
 
 .archy-fake-radio,
 .archy-fake-checkbox {
-	cursor: pointer;
 	display: block;
-	height: 19px;
 	width: 18px;
+	height: 19px;
+	cursor: pointer;
 }
 
 .archy-fake-radio,
@@ -1551,7 +1526,7 @@ input[type="checkbox"] {
 
 .archy-radio-item-container:first-child,
 .archy-checkbox-item-container:first-child {
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 .archy-radio-item-container,
@@ -1564,24 +1539,24 @@ input[type="checkbox"] {
 /* upload file instrument styles */
 
 .archy-upload-file {
-	background-color: #f8f8f8;
-	border-radius: 3px;
-	display: -moz-inline-stack; /* inline-block for Mozilla 2 */
-	display: inline-block; /* inline-block for other browsers */
+	display: -moz-inline-stack;
+	display: inline-block;
+	padding: 11px 9px; /* inline-block for Mozilla 2 */
+	width: 442px; /* inline-block for other browsers */
 	height: 48px;
-	padding: 11px 9px;
-	width: 442px
+	border-radius: 3px;
+	background-color: #f8f8f8;
 }
 
 .archy-upload-file-input {
-	background: url("images/upload-arrow.png") no-repeat scroll 189px 0 #fcfcfc;
-	border: 1px solid #d7d7d7;
-	border-radius: 3px;
-	display: -moz-inline-stack; /* inline-block for Mozilla 2 */
-	display: inline-block; /* inline-block for other browsers */
+	display: -moz-inline-stack;
+	display: inline-block;
 	padding: 13px 10px;
-	width: 200px;
-	word-spacing: 0px;
+	width: 200px; /* inline-block for Mozilla 2 */
+	border: 1px solid #d7d7d7; /* inline-block for other browsers */
+	border-radius: 3px;
+	background: url("images/upload-arrow.png") no-repeat scroll 189px 0 #fcfcfc;
+	word-spacing: 0;
 }
 
 .archy-upload-file-status {
@@ -1596,17 +1571,17 @@ input[type="checkbox"] {
 input[type="reset"],
 input[type="submit"],
 input[type="button"] {
-	background-color: #444;
+	margin-top: 9px;
+	margin-right: 10px;
+	padding: 18px 15px 16px 16px;
 	border: 0;
 	border-radius: 3px;
+	background-color: #444;
 	color: #fff;
-	font: 900 11px 'Arial';
-	letter-spacing: 1px;
-	line-height: 13px;
-	padding: 18px 15px 16px 16px;
-	margin-right: 10px;
-	margin-top: 9px;
 	text-transform: uppercase;
+	letter-spacing: 1px;
+	font: 900 11px 'Arial';
+	line-height: 13px;
 }
 
 input[type="reset"]:hover,
@@ -1644,7 +1619,7 @@ a:hover {
 
 /* abbr, acronym, pre, code, sub, sup, etc. */
 
-.entry-content acronym, 
+.entry-content acronym,
 .entry-content abbr,
 .comment-body acronym,
 .comment-body abbr {
@@ -1653,14 +1628,14 @@ a:hover {
 
 .entry-content pre,
 .comment-body pre {
-	background-color: #efefef;
-	border: 1px solid #ddd;
-	font: 200 10pt/21px 'courier new', courier, monospace;
 	overflow-x: auto;
-	padding: 14px 19px;
 	margin: 21px 0;
+	padding: 14px 19px;
 	width: 93%;
+	border: 1px solid #ddd;
+	background-color: #efefef;
 	word-spacing: -2px;
+	font: 200 10pt/21px 'courier new', courier, monospace;
 }
 
 .entry-content sup,
@@ -1668,9 +1643,9 @@ a:hover {
 .comment-body sup,
 .comment-body sub {
 	color: #aaa;
+	letter-spacing: -1px;
 	font-size: 100%;
 	line-height: 14px;
-	letter-spacing: -1px;
 }
 
 .entry-content sup,
@@ -1690,19 +1665,19 @@ a:hover {
 
 .entry-content blockquote:before,
 .comment-body blockquote:before {
-	background: url( 'images/quotes.png' ) no-repeat 0 5px;
-	content: '"';
-	color: #444;
 	float: left;
 	margin: 0 12px 0 -36px;
 	width: 22px;
+	background: url('images/quotes.png') no-repeat 0 5px;
+	color: #444;
+	content: '"';
 }
 
 .entry-content blockquote,
 .comment-body blockquote {
 	display: block;
-	color: #aaa;
 	margin: 27px 36px;
+	color: #aaa;
 	word-spacing: 2px;
 }
 
@@ -1714,10 +1689,10 @@ a:hover {
 .entry-content blockquote cite,
 .comment-body blockquote cite { /* author */
 	display: block;
-	color: #666;
-	font: 900 10pt 'Arimo', sans-serif;
 	margin-top: 5px;
-	word-spacing: 0px;
+	color: #666;
+	word-spacing: 0;
+	font: 900 10pt 'Arimo', sans-serif;
 }
 
 .entry-content address,
@@ -1743,8 +1718,8 @@ a:hover {
 
 .entry-content table,
 .comment-body table {
-	border-collapse: collapse;
 	margin-bottom: 21px;
+	border-collapse: collapse;
 	text-align: left;
 }
 
@@ -1758,19 +1733,19 @@ a:hover {
 .comment-body table tfoot {
 	display: block;
 }
-	
-.entry-content table td, 
+
+.entry-content table td,
 .entry-content table th,
 .comment-body table th,
-.comment-body table td  {
-	border: 1px solid #ddd;
+.comment-body table td {
 	padding: 11px;
+	border: 1px solid #ddd;
 }
 
 #archy-content,
 #content {
-	font: 200 12pt 'Arimo', sans-serif;
 	margin: 0;
+	font: 200 12pt 'Arimo', sans-serif;
 }
 
 #archy-content article,
@@ -1781,10 +1756,10 @@ a:hover {
 #archy-content .post,
 #archy-content .page,
 #archy-content article.attachment {
+	margin: 0 0 40px 0;
+	padding: 0;
 	box-shadow: none;
 	font: 200 10pt 'Arimo', sans-serif;
-	padding: 0;
-	margin: 0 0 40px 0;
 }
 
 #archy-content .page {
@@ -1793,10 +1768,10 @@ a:hover {
 
 #archy-content nav,
 #content nav {
+	margin: 40px -35px -27px;
+	padding: 30px 35px;
 	background-color: #ddd;
 	font: 200 11pt 'Arimo', sans-serif;
-	padding: 30px 35px;
-	margin: 40px -35px -27px;
 }
 
 #archy-content nav a,
@@ -1812,16 +1787,16 @@ a:hover {
 
 #archy-content .archy-nav-single.archy-clearfix:after,
 #content .archy-nav-single.archy-clearfix:after {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 }
 
 #archy-content .archy-nav-single .archy-nav-previous,
 #archy-content .archy-nav-single .archy-nav-next,
 #content .archy-nav-single .archy-nav-previous,
 #content .archy-nav-single .archy-nav-next {
-	max-width: 50%;
-	display: -moz-inline-stack; /* inline-block for Mozilla 2 */
-	display: inline-block; /* inline-block for other browsers */
+	display: -moz-inline-stack;
+	display: inline-block; /* inline-block for Mozilla 2 */
+	max-width: 50%; /* inline-block for other browsers */
 }
 
 #archy-content .archy-nav-single .archy-nav-next,
@@ -1838,16 +1813,16 @@ a:hover {
 
 #archy-content #comments,
 #content #comments {
+	margin: 50px 0 35px;
 	color: #444;
 	font: 200 18px 'Arimo';
-	margin: 50px 0 35px;
 }
 
 #archy-content .commentlist,
 #content .commentlist,
 #commentlist {
-	list-style-type: none;
 	margin: 35px 0 -22px;
+	list-style-type: none;
 }
 
 #commentlist {
@@ -1873,12 +1848,12 @@ a:hover {
 	margin-top: 20px;
 }
 
-#archy-content .commentlist .comment .children ,
+#archy-content .commentlist .comment .children,
 #archy-content .commentlist .pingback .children,
-#content .commentlist .comment .children ,
+#content .commentlist .comment .children,
 #content .commentlist .pingback .children {
-	list-style-type: none;
 	margin-left: 48px;
+	list-style-type: none;
 }
 
 #archy-content .commentlist > .comment:last-child .reply,
@@ -1906,15 +1881,15 @@ a:hover {
 #archy-content .pingback .comment-meta,
 #content .comment .comment-meta,
 #content .pingback .comment-meta {
+	margin: 9px 0 30px 0;
 	font-size: 12px;
-	margin: 9px 0 30px 0px;
 }
 
 #archy-content .comment .comment-meta a:first-child,
 #archy-content .pingback .comment-meta a:first-child,
 #content .comment .comment-meta a:first-child,
 #content .pingback .comment-meta a:first-child {
-	color: #444
+	color: #444;
 }
 
 #archy-content .comment,
@@ -1928,36 +1903,36 @@ a:hover {
 #archy-content .pingback .reply,
 #content .comment .reply,
 #content .pingback .reply {
-	border-bottom: 1px dashed #ddd;
-	font-size: 14px;
-	padding-bottom: 10px;
 	margin: 30px 0 0;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #ddd;
 	text-align: right;
+	font-size: 14px;
 }
 
 #archy-content .comment.bypostauthor,
-#content .comment.bypostauthor  {
-	background-color: #f5f5f5;
-	padding: 30px 30px 0;
+#content .comment.bypostauthor {
+	margin-top: 0;
 	margin-left: -30px;
-	margin-top: 0px;
+	padding: 30px 30px 0;
 	width: 100%;
+	background-color: #f5f5f5;
 }
 
 #respond {
-	color: #444;
 	padding-top: 45px;
+	color: #444;
 }
 
 #respond h3 {
-	font: 700 16pt 'Arimo', sans-serif;
 	margin: 18px 0 0;
+	font: 700 16pt 'Arimo', sans-serif;
 }
 
 #respond #cancel-comment-reply-link {
 	display: block;
-	font: 200 14px 'Arimo', sans-serif;
 	margin: 5px 0 50px;
+	font: 200 14px 'Arimo', sans-serif;
 }
 
 #respond form {
@@ -1965,8 +1940,8 @@ a:hover {
 }
 
 #respond form p {
-	font-size: 10pt;
 	margin: 0 0 21px;
+	font-size: 10pt;
 }
 
 #respond form p:last-of-type {
@@ -1982,22 +1957,22 @@ a:hover {
 }
 
 #respond form textarea {
-	height: 120px;	
 	margin-top: 2px;
 	width: 100%;
+	height: 120px;
 }
 
 .commentlist form textarea {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box; /* Firefox */
-	-webkit-box-sizing: border-box; /* Safari lte 5.0, Chrome lte 10.0, Android lte 4.0 and iOS Safari lte 5.0 */
+	box-sizing: border-box; /* Safari lte 5.0, Chrome lte 10.0, Android lte 4.0 and iOS Safari lte 5.0 */
 }
 
 #respond .form-allowed-tags,
 #commentspopup p + h2 + p {
+	text-align: justify;
 	font-size: 11px;
 	line-height: 17px;
-	text-align: justify;
 }
 
 #respond input[type="submit"] {
@@ -2015,7 +1990,7 @@ a:hover {
 
 #archy-content .commentlist .comment:last-child #respond,
 #content .commentlist .comment:last-child #respond {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 }
 
 /* post-password-required */
@@ -2027,14 +2002,13 @@ a:hover {
 }
 
 .post-password-required label input[name="post_password"] {
-	margin: 0;
-	margin-left: 2px;
+	margin: 0 0 0 2px;
 	width: 68.9%;
 }
 
 .post-password-required input[name="Submit"] {
+	margin: 0;
 	padding-bottom: 18px;
-	margin: 0; 
 }
 
 /* gallery */
@@ -2042,13 +2016,6 @@ a:hover {
 .single-format-gallery .gallery {
 	margin-left: -3% !important;
 }
-
-/*.gallery dl:first-child dt,
-.gallery dl:first-child dd,
-.gallery br + dl dt,
-.gallery br + dl dd {
-	padding-left: 0;
-}*/
 
 .gallery .gallery-caption {
 	word-wrap: break-word;
@@ -2063,10 +2030,6 @@ a:hover {
 #archy-content .no-results {
 	margin-bottom: 8px;
 }
-
-.no-results .searchform .screen-reader-text {
-	margin: 1px 0 0;
-} 
 
 .no-results .searchform input[type="text"] {
 	margin: 0;
@@ -2098,10 +2061,10 @@ a:hover {
 /* archive styles */
 
 .archive-meta {
-	color: #aaa;
-	font: 200 13px 'Arimo';
 	margin-top: 10px;
+	color: #aaa;
 	text-align: center;
+	font: 200 13px 'Arimo';
 }
 
 /* error 404 */
@@ -2119,14 +2082,14 @@ a:hover {
 	margin: 5px 0 0;
 }
 
-/* pagind navigation */
+/* page navigation */
 
 article.paging-nav {
 	margin-top: -10px;
 }
 
 article.paging-nav .entry-header {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 article.paging-nav .entry-title {
@@ -2135,8 +2098,8 @@ article.paging-nav .entry-title {
 
 article.paging-nav .nav-links a {
 	color: #444;
-	font-size: 21px;
 	font-weight: 900;
+	font-size: 21px;
 }
 
 article.paging-nav .nav-links a:hover {
@@ -2168,14 +2131,14 @@ article.paging-nav .nav-links .archy-nav-previous {
 /* Quotes and tips */
 
 #quotes_box_and_tips h3 {
-	font: 900 20pt 'Arial';
-	letter-spacing: 0px;
 	word-spacing: 1px;
+	letter-spacing: 0;
+	font: 900 20pt 'Arial';
 }
 
 #quotes_box_and_tips p {
-	font: 200 10pt 'Arimo', sans-serif;
 	word-spacing: -1px;
+	font: 200 10pt 'Arimo', sans-serif;
 }
 
 .widget-area #quotes_box_and_tips:first-child {
@@ -2192,25 +2155,27 @@ article.paging-nav .nav-links .archy-nav-previous {
 .page-template-gallery-template-php #container,
 .single-portfolio #container,
 .tax-portfolio_technologies #container,
-.page-template-portfolio-php #container {
+.page-template-portfolio-php #container,
+.site-content {
 	float: right;
 	width: 63.829787234%;
 }
 
 .single-gallery #archy-content .gallery {
-	margin-left: 0% !important;
+	margin-left: 0 !important;
 }
 
 .gallery .gllr_image_block p {
-	font-size: 300%;
 	margin-bottom: 0;
 	max-width: 540px;
+	font-size: 300%;
 }
 
 .gallery .gllr_image_row,
-.entry-content iframe,
-embed {
-	width: 100%;
+iframe,
+embed,
+.comment-body iframe {
+	max-width: 100%;
 }
 
 .gallery .gllr_image_row,
@@ -2226,12 +2191,12 @@ embed {
 }
 
 .single-gallery #archy-content .gallery img {
-	max-width: 540px!important;
+	max-width: 540px !important;
 }
 
 .return_link {
+	margin: 20px 0 10px;
 	font: 200 11pt 'Arimo', sans-serif;
-	margin: 20px 0 10px
 }
 
 article .return_link a:hover {
@@ -2254,8 +2219,8 @@ article .gallery_box img {
 
 article .gallery_box .gallery_detail_box div:first-child,
 .page-template-gallery-template-php #archy-content .gallery_detail_box div:first-child {
-	font-size: 15px;
 	font-weight: 900;
+	font-size: 15px;
 }
 
 article .gallery_box a:hover {
@@ -2284,8 +2249,8 @@ article .gallery_box a:hover {
 
 .page-template-gallery-template-php .pagination span {
 	color: #444;
-	cursor: default;
 	font-size: 22px;
+	cursor: default;
 }
 
 .page-template-gallery-template-php .pagination a,
@@ -2319,7 +2284,7 @@ article .gallery_box a:hover {
 .single-portfolio .lable,
 .tax-portfolio_technologies .lable,
 .portfolio_content .lable {
-	font-weight: 900!important;
+	font-weight: 900 !important;
 }
 
 .tax-portfolio_technologies .item_title {
@@ -2362,9 +2327,9 @@ article .gallery_box a:hover {
 
 .single-format-standard .portfolio_thumb img,
 .widget .portfolio_thumb img {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box; /* Firefox */
-	-webkit-box-sizing: border-box; /* Safari lte 5.0, Chrome lte 10.0, Android lte 4.0 and iOS Safari lte 5.0 */
+	box-sizing: border-box; /* Safari lte 5.0, Chrome lte 10.0, Android lte 4.0 and iOS Safari lte 5.0 */
 }
 
 .single-format-standard .prtfl_portfolio_block a:hover {
@@ -2383,13 +2348,13 @@ article .gallery_box a:hover {
 }
 
 .widget .prtfl_portfolio_block img {
-	border-color: #fff;
 	margin-top: 0;
+	border-color: #fff;
 }
 
 .widget .prtfl_portfolio_block .portfolio_terms {
-	border-bottom-color: #fff;
 	padding-bottom: 3px;
+	border-bottom-color: #fff;
 }
 
 .widget .portfolio_thumb {
@@ -2397,7 +2362,7 @@ article .gallery_box a:hover {
 }
 
 .widget .item_title {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 }
 
 .widget .portfolio_short_content {
@@ -2488,8 +2453,8 @@ article .gallery_box_single .gglplsn_share,
 
 .rltdpstsplgn_content h3 {
 	display: list-item;
-	font-size: 13px;
 	margin: 10px 0 0 24px;
+	font-size: 13px;
 }
 
 .rltdpstsplgn_content h3 a:hover {
@@ -2505,14 +2470,14 @@ $$______$$$$___$$$$____$$___$$$$$__$$__$$
 */
 
 #wrapper + footer {
-	background-color: #fcfcfc;
-	box-shadow: 0 0 5px 0px #d0d0d0;
-	color: #aaa;
-	font: 200 10pt 'Arimo', sans-serif;
-	padding: 22px 29px;
 	position: relative;
 	margin: 10px 0;
+	padding: 22px 29px;
 	width: 93.9%;
+	background-color: #fcfcfc;
+	box-shadow: 0 0 5px 0 #d0d0d0;
+	color: #aaa;
+	font: 200 10pt 'Arimo', sans-serif;
 }
 
 #wrapper + footer .archy-copyright {
@@ -2521,6 +2486,35 @@ $$______$$$$___$$$$____$$___$$$$$__$$__$$
 
 #wrapper + footer .archy-powered-by {
 	position: absolute;
-	right: 32px;
 	top: 21px;
+	right: 32px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
 }

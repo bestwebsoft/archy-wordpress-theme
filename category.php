@@ -1,11 +1,11 @@
-<?php 
+<?php
 /**
  * The template for displaying Category pages
  *
- * @link http://codex.wordpress.org/Template_Hierarchy
+ * @link       http://codex.wordpress.org/Template_Hierarchy
  *
  * @subpackage Archy
- * @since Archy 1.4
+ * @since      Archy 1.4
  */
 get_header();
 get_sidebar(); ?>
@@ -27,4 +27,4 @@ get_sidebar(); ?>
 			get_template_part( 'content', 'none' );
 		endif; ?>
 	</div><!-- #archy-content-container -->
-<?php get_footer(); ?>
+<?php get_footer();

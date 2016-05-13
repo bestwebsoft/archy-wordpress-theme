@@ -1,17 +1,19 @@
 === Archy ===
-Contributors: the BestWebSoft team
-Author URI: https://github.com/bestwebsoft
+Contributors: BestWebLayout, BestWebSoft
+Author URI: http://bestweblayout.com/
 Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
 Tags: two-column, left-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready, pagination, image-slider, white, blue, gray.
 Requires at least: 3.7
-Tested up to: 3.9.1
-Stable tag: 1.6
+Tested up to: 4.5.1
+Stable tag: 1.7
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+Archy WordPress Theme, Copyright 2016 BestWebLayout.com
+Theme Archy is distributed under the terms of the GNU GPL
 
 == Description ==
 
-Archy is a powerful and sleek WordPress Theme that provides all the tools you need to launch a successful online store. The design is responsive and beautiful, it balances between style and function. A strict grid and clean design elements give the theme an organized layout which is a pleasure to scroll and to read. It is a beautiful magazine theme that does a great job displaying a bunch of content avoiding the feeling of clutter at the same time. Archy is absolutelly compatible with all plugins developed by BestWebSoft, so you will not have to worry about compatibility issues. We recommend you to upgrade your website's functionality with Contact Form plugin (http://wordpress.org/plugins/contact-form-plugin/) and Facebook Like Button (http://wordpress.org/plugins/facebook-button-plugin/). With these, you will be able to organize your website's work, which will be a huge bonus to the Theme's appealing design. Take a look at this theme's demo at http://bestwebsoft.com/wordpress_demo_theme/archy/
+Archy is a powerful and sleek WordPress Theme that provides all the tools you need to launch a successful online store. The design is responsive and beautiful, it balances between style and function. A strict grid and clean design elements give the theme an organized layout which is a pleasure to scroll and to read. It is a beautiful magazine theme that does a great job displaying a bunch of content avoiding the feeling of clutter at the same time. Archy is absolutely compatible with all plugins developed by BestWebSoft, so you will not have to worry about compatibility issues. We recommend you to upgrade your website's functionality with Contact Form plugin (http://wordpress.org/plugins/contact-form-plugin/) and Facebook Like Button (http://wordpress.org/plugins/facebook-button-plugin/). With these, you will be able to organize your website's work, which will be a huge bonus to the Theme's appealing design. Take a look at this theme's demo at http://wp-demo-theme.bestweblayout.com/archy/
 
 = Features =
 
@@ -41,7 +43,7 @@ Copyright 2013, Steve Matteson
 Apache License v2.00
 Copyright 2013, Steve Matteson
 
-* Code in 'bwsgallery.js', 'bwsportfolio.js', 'script.js', 'navigation.js' files has been created by BestWebSoft team and it is licensed under the GPL.
+* Code in 'bwsgallery.js', 'bwsportfolio.js', 'script.js', 'navigation.js' files has been created by BestWebLayout team and it is licensed under the GPL.
 
 * Code in 'html5.js' file: HTML5 Shiv v3.6 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
 Source: https://github.com/aFarkas/html5shiv
@@ -56,7 +58,7 @@ Dual-licensed for use under the Apache License Version 2.0 or the General Public
 selectivizr v1.0.2 - (c) Keith Clark, freely distributable under the terms of the MIT license.
 Source: http://selectivizr.com
 
-* images located in 'images' folder are created by BestWebSoft team and they are licensed under the GPL.
+* images located in 'images' folder are created by BestWebLayout team and they are licensed under the GPL.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
@@ -101,6 +103,14 @@ You can display Custom Header image by adding it via 'Appearances' > 'Header' me
 
 == Changelog ==
 
+= v1.7 - 04.05.2016 =
+* New:    The 'title-tag' theme support was added.
+* Bugfix: Fixed mismatch coding standards.
+* Bugfix: Fixed theme styles.
+* Update: Screenshot was updated to size 1200x900.
+* Update: The theme has been tested for the compatibility with WordPress v.4.5.1.
+* Update: Theme was transferred to new WordPress account.
+
 = v1.6 - 29.07.2014 =
 * Update: We checked theme for WordPress 3.9.1. 
 * Bugfix: We fixed bugs in script.js.
@@ -127,6 +137,9 @@ You can display Custom Header image by adding it via 'Appearances' > 'Header' me
 Ability to use the Archy theme in your site.
 
 == Upgrade Notice ==
+
+= v1.7 =
+The 'title-tag' theme support was added. Fixed mismatch coding standards. Fixed theme styles. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.1. Theme was transferred to new WordPress account.
 
 = v1.6 =
 We checked theme for WordPress 3.9.1. We fixed bugs in script.js.

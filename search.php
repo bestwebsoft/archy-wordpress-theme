@@ -3,7 +3,7 @@
  * The template for displaying Search Results pages
  *
  * @subpackage Archy
- * @since Archy 1.4
+ * @since      Archy 1.4
  */
 get_header();
 get_sidebar(); ?>
@@ -17,7 +17,7 @@ get_sidebar(); ?>
 			<?php while ( have_posts() ) : the_post();
 				get_template_part( 'content', get_post_format() );
 			endwhile;
-			do_action( 'archy_content_nav' ); // create post in article tag 
+			do_action( 'archy_content_nav' ); // create post in article tag
 		else : ?>
 			<article class="page-header post">
 				<header class="entry-header">
@@ -31,4 +31,4 @@ get_sidebar(); ?>
 			<?php do_action( 'archy_content_nav' ); // create post in article tag
 		endif; ?>
 	</div><!-- #archy-content-container -->
-<?php get_footer(); ?>
+<?php get_footer();
