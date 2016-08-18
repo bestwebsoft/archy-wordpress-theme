@@ -1,11 +1,11 @@
 === Archy ===
 Contributors: BestWebLayout, BestWebSoft
 Author URI: http://bestweblayout.com/
-Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
-Tags: two-column, left-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready, pagination, image-slider, white, blue, gray.
-Requires at least: 3.7
-Tested up to: 4.5.1
-Stable tag: 1.7
+Donate link: http://bestwebsoft.com/donate/
+Tags: two-columns, left-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready
+Requires at least: 4.2
+Tested up to: 4.6
+Stable tag: 1.8
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Archy WordPress Theme, Copyright 2016 BestWebLayout.com
@@ -103,7 +103,10 @@ You can display Custom Header image by adding it via 'Appearances' > 'Header' me
 
 == Changelog ==
 
-= v1.7 - 04.05.2016 =
+= V1.8 - 18.08.2016 =
+* Update : All functionality for WordPress 4.6 was updated.
+
+= V1.7 - 04.05.2016 =
 * New:    The 'title-tag' theme support was added.
 * Bugfix: Fixed mismatch coding standards.
 * Bugfix: Fixed theme styles.
@@ -111,53 +114,56 @@ You can display Custom Header image by adding it via 'Appearances' > 'Header' me
 * Update: The theme has been tested for the compatibility with WordPress v.4.5.1.
 * Update: Theme was transferred to new WordPress account.
 
-= v1.6 - 29.07.2014 =
+= V1.6 - 29.07.2014 =
 * Update: We checked theme for WordPress 3.9.1. 
 * Bugfix: We fixed bugs in script.js.
 
-= v1.5 - 05.04.2014 =
+= V1.5 - 05.04.2014 =
 * Update: We updated all functionality for wordpress 3.9.
 * Bugfix: We fixed a bug for the search form in the sidebar and in the search template.
 
-= v1.4 - 11.02.2014 =
+= V1.4 - 11.02.2014 =
 * Bugfix: Created archy.pot file without any translation.
 
-= v1.3 - 10.02.2014 =
+= V1.3 - 10.02.2014 =
 * NEW : Added .pot file in 'languages' folder.
 * Bugfix: We escaped all url output.
 
-= v1.2 - 09.02.2014 =
+= V1.2 - 09.02.2014 =
 * Update : We updated all functionality for wordpress 3.8.1.
 * Bugfix: We fixed the bug with deregister core-bundled scripts.
 
-= v1.1 - 17.01.2014 =
+= V1.1 - 17.01.2014 =
 * NEW: Custom thumbnail size is added. 
 
-= v1.0 =
+= V1.0 =
 Ability to use the Archy theme in your site.
 
 == Upgrade Notice ==
 
-= v1.7 =
+= V1.8 =
+* The compatibility with new WordPress version updated.
+
+= V1.7 =
 The 'title-tag' theme support was added. Fixed mismatch coding standards. Fixed theme styles. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.1. Theme was transferred to new WordPress account.
 
-= v1.6 =
+= V1.6 =
 We checked theme for WordPress 3.9.1. We fixed bugs in script.js.
 
-= v1.5 =
+= V1.5 =
 We updated all functionality for wordpress 3.9. We fixed a bug for the search form in the sidebar and in the search template.
 
-= v1.4 =
+= V1.4 =
 Created archy.pot file without any translation.
 
-= v1.3 =
+= V1.3 =
 Added .pot file in 'languages' folder. We escaped all url output.
 
-= v1.2 =
+= V1.2 =
 We updated all functionality for wordpress 3.8.1. We fixed the bug with deregister core-bundled scripts.
 
-= v1.1 =
+= V1.1 =
 Custom thumbnail size is removed. 
 
-= v1.0 =
+= V1.0 =
 Ability to use the Archy theme in your site.

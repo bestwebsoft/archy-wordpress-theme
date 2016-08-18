@@ -96,44 +96,6 @@ function archy_register_scripts() {
 	wp_style_add_data( 'archy-style-ie', 'conditional', 'lt IE 9' );
 }
 
-/* backwards compatibility title-tag */
-if ( ! function_exists( '_wp_render_title_tag' ) ) {
-	/* customize title if WP version < 4.1 */
-	function archy_wp_title( $title, $sep = '|' ) {
-		global $page, $paged;
-
-		if ( is_feed() ) {
-			return $title;
-		}
-
-		/* Add the blog name */
-		$title .= get_bloginfo( 'name' );
-
-		/* Add the blog description for the home/front page. */
-		$site_description = get_bloginfo( 'description', 'display' );
-		if ( $site_description && ( is_home() || is_front_page() ) ) {
-			$title .= " $sep $site_description ";
-		}
-
-		/* Add a page number if necessary: */
-		if ( $paged >= 2 || $page >= 2 ) {
-			$title .= " $sep " . sprintf( __( 'Page %s', 'archy' ), max( $paged, $page ) );
-		}
-
-		return $title;
-	}
-	/* add wp_title filter if WP version < 4.1 */
-	add_filter( 'wp_title', 'archy_wp_title' );
-
-	/* render title in wp_head if WP version < 4.1 */
-	function archy_render_title() { ?>
-		<title><?php wp_title( '|', true, 'right' ); ?></title>
-	<?php }
-
-	add_action( 'wp_head', 'archy_render_title' );
-}
-/* end backwards compatibility */
-
 function archy_initialize_widgets() {
 	register_sidebar( array(
 		'name'          => __( 'Main Sidebar', 'archy' ),

@@ -20,15 +20,7 @@ get_sidebar(); ?>
 			<article class="page-header post archive">
 				<header class="entry-header">
 					<h1 class="entry-title">
-						<?php if ( is_day() ) {
-							printf( __( 'Daily Archives: %s', 'archy' ), '<span>' . get_the_date() . '</span>' );
-						} elseif ( is_month() ) {
-							printf( __( 'Monthly Archives: %s', 'archy' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'archy' ) ) . '</span>' );
-						} elseif ( is_year() ) {
-							printf( __( 'Yearly Archives: %s', 'archy' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'archy' ) ) . '</span>' );
-						} else {
-							_e( 'Archives', 'archy' );
-						} ?>
+						<?php the_archive_title() ?>
 					</h1>
 				</header>
 			</article>

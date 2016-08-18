@@ -11,14 +11,12 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<?php // Loads selectivizr JavaScript file to add support for newest css pseudoclasses. ?>
 	<!--[if (gte IE 6)&(lte IE 8)]>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/selectivizr-min.js"></script>
 	<noscript>
 		<link rel="stylesheet" href="[fallback css]" />
 	</noscript>
 	<![endif]-->
-	<?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 	<![endif]-->
@@ -38,11 +36,11 @@
 
 			<div class="archy-site-header-container archy-clearfix">
 				<div class="archy-site-header-container-group">
-					<hgroup class="archy-site-title-desctiption">
+					<div class="archy-site-title-desctiption">
 						<h1 class="archy-site-title">
 							<a href="<?php echo esc_url( home_url() ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 						<h2 class="archy-site-description"><?php bloginfo( 'description' ); ?></h2>
-					</hgroup>
+					</div>
 					<nav id="navigation" class="archy-main-navigation">
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false ) ); ?>
 					</nav>

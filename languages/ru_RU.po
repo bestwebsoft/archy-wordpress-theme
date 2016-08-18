@@ -1,208 +1,215 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: archy\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-09 11:53+0200\n"
+"Project-Id-Version: Archy v1.8\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-08-18 14:27+0300\n"
 "PO-Revision-Date: \n"
-"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
-"Language-Team: BestWebSoft <info@bestwebsoft.com>\n"
+"Last-Translator: \n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: .\n"
-"X-Generator: Poedit 1.5.7\n"
-"X-Poedit-SearchPath-0: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: ../404.php:13
+#: 404.php:13
 msgid "This is somewhat embarrassing, isn&rsquo;t it?"
 msgstr "Немного неудобно, не правда ли?"
 
-#: ../404.php:16 ../search.php:27
+#: 404.php:16 search.php:27
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
 "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск сможет помочь."
 
-#: ../archive.php:24
-#, php-format
-msgid "Daily Archives: %s"
-msgstr "Архив за день: %s"
-
-#: ../archive.php:26
-#, php-format
-msgid "Monthly Archives: %s"
-msgstr "Архив за месяц: %s"
-
-#: ../archive.php:28
-#, php-format
-msgid "Yearly Archives: %s"
-msgstr "Архив за год: %s"
-
-#: ../archive.php:30
-msgid "Archives"
-msgstr "Архивы"
-
-#: ../category.php:16
-#, php-format
-msgid "Category Archives: %s"
-msgstr "Архив категорий: %s"
-
-#: ../comments.php:19
+#: comments.php:20
 #, php-format
 msgid "One Response to %2$s"
 msgstr "Один Ответ на %2$s"
 
-#: ../comments.php:19
+#: comments.php:20
 #, php-format
 msgid "%1$s Responses to %2$s"
 msgstr "Ответы ( %1$s ) на %2$s"
 
-#: ../comments.php:35
+#: comments.php:36
 msgid "Comments are closed."
 msgstr "Комментарии закрыты."
 
-#: ../content.php:14
+#: content.php:14
 msgid "Featured post"
 msgstr "Избранный пост"
 
-#: ../content.php:31
+#: content.php:26
 msgid "Posted on"
 msgstr "Опубликовано"
 
-#: ../content.php:36
+#: content.php:34
 msgid " in"
 msgstr " в"
 
-#: ../content.php:51 ../image.php:82
+#: content.php:50 image.php:94
 msgid "Pages:"
 msgstr "Страницы:"
 
-#: ../content.php:74
+#: content.php:78
 msgid "Leave a comment"
 msgstr "Оставить комментарий"
 
-#: ../content.php:74
+#: content.php:78
 msgid "One comment so far"
 msgstr "Пока один комментарий"
 
-#: ../content.php:74
+#: content.php:78
 msgid "View all comments: "
 msgstr "Смотреть все комментарии:"
 
-#: ../content.php:79
+#: content.php:83
 msgid "Top"
 msgstr "Вверх"
 
-#: ../content.php:81 ../image.php:32
+#: content.php:85 image.php:32
 msgid "Edit"
 msgstr "Редактировать"
 
-#: ../footer.php:14
+#: footer.php:15
 msgid "Powered by"
 msgstr "При поддержке"
 
-#: ../footer.php:15
+#: footer.php:16
 msgid "and"
 msgstr "и"
 
-#: ../functions.php:68
+#: functions.php:68
 msgid "Navigation Menu"
 msgstr "Главное меню"
 
-#: ../functions.php:106
-#, php-format
-msgid "Page %s"
-msgstr "Страница: %s"
-
-#: ../functions.php:112
+#: functions.php:101
 msgid "Main Sidebar"
 msgstr "Главная боковая панель"
 
-#: ../functions.php:114
+#: functions.php:103
 msgid "Appears posts and pages"
 msgstr "Отображаются посты и страницы"
 
-#: ../functions.php:153
+#: functions.php:142
 msgid "Slider"
 msgstr "Слайдер"
 
-#: ../functions.php:178
+#: functions.php:167
 msgid ""
 "Display the featured image in the slider? (Check if you want write caption)"
 msgstr ""
 "Показывать ли избранное изображение в слайдере? (Отметьте, если хотите "
 "написать подпись)"
 
-#: ../functions.php:182
+#: functions.php:171
 msgid "Caption on slider area:"
 msgstr "Подпись в зоне слайдера:"
 
-#: ../functions.php:301
+#: functions.php:298
 msgid "Older posts"
 msgstr "Предыдущие посты"
 
-#: ../functions.php:302
+#: functions.php:299
 msgid "Newer posts"
 msgstr "Следующие посты"
 
-#: ../image.php:18
+#: image.php:18
 msgid "Published"
 msgstr "Опубликовано"
 
-#: ../image.php:24
+#: image.php:24
 msgid "at"
 msgstr "на"
 
-#: ../image.php:28
+#: image.php:28
 msgid "in"
 msgstr "в"
 
-#: ../image.php:87
+#: image.php:101
 msgid "&lsaquo;&lsaquo; Previous"
 msgstr "&lsaquo;&lsaquo; Предыдущие"
 
-#: ../image.php:88
+#: image.php:102
 msgid "Next &rsaquo;&rsaquo;"
 msgstr "Следующие &rsaquo;&rsaquo;"
 
-#: ../search.php:14
+#: search.php:14
 #, php-format
 msgid "Search Results for: %s"
 msgstr "Результаты поиска: %s"
 
-#: ../search.php:24
+#: search.php:24
 msgid "Nothing Found"
 msgstr "Ничего не найдено"
 
-#: ../sidebar.php:18
+#: sidebar.php:18
 msgid "Search"
 msgstr "Поиск"
 
-#: ../sidebar.php:21
+#: sidebar.php:21
 msgid "Enter search keyword"
 msgstr "Введите ключевое слово для поиска"
 
-#: ../sidebar.php:28
+#: sidebar.php:28
 msgid "recent posts"
 msgstr "последние посты"
 
-#: ../sidebar.php:38
+#: sidebar.php:40
 msgid "recent comments"
 msgstr "последние комментарии"
 
-#: ../sidebar.php:50
+#: sidebar.php:51
 msgid "on"
 msgstr "на"
 
-#: ../sidebar.php:55
+#: sidebar.php:58
 msgid "archives"
 msgstr "архивы"
 
-#: ../sidebar.php:61
+#: sidebar.php:64
 msgid "categories"
 msgstr "категории"
+
+#, fuzzy
+#~ msgctxt "Previous post link"
+#~ msgid "&lsaquo;&lsaquo;"
+#~ msgstr "&lsaquo;&lsaquo; Предыдущие"
+
+#, fuzzy
+#~ msgctxt "Next post link"
+#~ msgid "&rsaquo;&rsaquo;"
+#~ msgstr "Следующие &rsaquo;&rsaquo;"
+
+#~ msgid "Daily Archives: %s"
+#~ msgstr "Архив за день: %s"
+
+#~ msgid "Monthly Archives: %s"
+#~ msgstr "Архив за месяц: %s"
+
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "Архив за год: %s"
+
+#~ msgid "Archives"
+#~ msgstr "Архивы"
+
+#~ msgid "Category Archives: %s"
+#~ msgstr "Архив категорий: %s"
+
+#~ msgid "Page %s"
+#~ msgstr "Страница: %s"
 
 #~ msgid "Read more"
 #~ msgstr "Подробнее"

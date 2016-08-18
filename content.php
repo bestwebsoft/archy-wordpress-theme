@@ -15,24 +15,22 @@
 		</div>
 	<?php endif; ?>
 	<header class="entry-header">
-		<?php if ( is_single() ) : ?>
+		<?php if ( is_singular() ) : ?>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
 		<?php else : ?>
 			<h1 class="entry-title">
-				<?php if ( ! is_page() && ! is_single() ) : ?>
-					<a href="<?php the_permalink(); ?>">
-				<?php endif;
-				the_title();
-				if ( ! is_page() && ! is_single() ) : ?>
-					</a>
-				<?php endif; ?>
+					<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 			</h1>
 		<?php endif; // is_single() ?>
-		<h2 class="date-category"><?php _e( 'Posted on', 'archy' ) ?>
-			<a href="<?php the_permalink(); ?>" title="<?php the_time( 'g:i a' ); ?>">
-				<?php the_date(); ?>
-			</a>
-			<?php if ( get_post_type() == 'post' ) :
+		<h2 class="date-category">
+			<?php _e( 'Posted on', 'archy' );
+			if ( is_singular() ) {
+				$archy_date_link = get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) );
+			} else {
+				$archy_date_link = get_the_permalink();
+			} ?>
+			<a href="<?php echo esc_url( $archy_date_link ); ?>" title="<?php the_title_attribute(); ?>"><?php echo get_the_date(); ?></a>
+			<?php if ( has_category() ) :
 				_e( ' in', 'archy' );
 				echo '&nbsp;';
 				the_category( ', ' );
@@ -65,7 +63,7 @@
 			<?php printf( '<hr class = "tags-separator" />' );
 			if ( has_tag() ) {
 				echo '<div class="tag-list"';
-				if ( ( comments_open() && ! is_single() && ! is_page() )
+				if ( ( comments_open() && ! is_singular() )
 				     || ( $wp_query->current_post > 0 && ! is_single() )
 				) {
 					echo '<div class="tag-list" style="width: 100%;">';
@@ -75,10 +73,9 @@
 				the_tags();
 				echo '</div>';
 			}
-			if ( comments_open() && ! is_single() && ! is_page() ) : ?>
+			if ( comments_open() && ! is_singular() ) : ?>
 				<div class="comments-link">
-					<?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a comment', 'archy' ) . '</span>', __( 'One comment so far', 'archy' ), __( 'View all comments: ', 'archy' ) . '%' );
-					comments_popup_script(); ?>
+					<?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a comment', 'archy' ) . '</span>', __( 'One comment so far', 'archy' ), __( 'View all comments: ', 'archy' ) . '%' ); ?>
 				</div>
 			<?php endif; // comments_open() 
 			if ( $wp_query->current_post > 0 && ! is_single() ) :
